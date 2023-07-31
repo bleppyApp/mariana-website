@@ -1,0 +1,40 @@
+.bold{
+    font-weight: bold;
+}
+.xxlFont {
+    font-size: 6rem;
+}
+.xlFont {
+    font-size: 5rem;
+}
+
+.screen {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .xxlFont {
+        font-size: 4rem;
+    }
+    .xlFont {
+        font-size: 3rem;
+    }
+    .screen {
+        
+    }
+}
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1200px) {}
