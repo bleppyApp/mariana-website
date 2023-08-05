@@ -24,6 +24,10 @@
     flex-wrap: wrap;
 }
 
+.red {
+    color: red;
+}
+
 /* Mobile */
 @media (max-width: 480px) {
     .xxlFont {
